@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Intern Feedback Form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <span class="brand">Internship Program</span>
+    <span class="topbar-meta">Week 2 · Feedback</span>
+  </header>
+
+  <main class="page">
+
+    <!-- ============ HOME / LANDING VIEW ============ -->
+    <div id="home-view">
+
+      <section class="landing">
+        <div class="landing-copy">
+          <span class="eyebrow">Takes about a minute</span>
+          <h1>How was your week?</h1>
+          <p>Answer five quick questions. Your feedback shapes the program for the next cohort.</p>
+        </div>
+        <button type="button" class="start-btn" id="start-btn">
+          <span>Start Feedback</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+      </section>
+
+      <section class="recent" id="recent-section">
+        <div class="recent-header">
+          <h2>Recent Feedback</h2>
+          <span class="recent-count" id="recent-count"></span>
+        </div>
+        <div id="recent-list" class="recent-list">
+          <p class="recent-loading" id="recent-loading">Loading recent feedback…</p>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ============ WIZARD VIEW ============ -->
+    <section class="card wizard" id="wizard-view" hidden>
+
+      <div class="progress-dots" id="progress-dots">
+        <span class="dot" data-dot="0"></span>
+        <span class="dot" data-dot="1"></span>
+        <span class="dot" data-dot="2"></span>
+        <span class="dot" data-dot="3"></span>
+        <span class="dot" data-dot="4"></span>
+      </div>
+
+      <form id="feedback-form" novalidate>
+
+        <!-- Step 1: Name -->
+        <div class="step" data-step-name="name">
+          <label for="name">What's your full name?</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Sara Khan" autocomplete="name" />
+          <p class="error-text" id="error-name" role="alert"></p>
+        </div>
+
+        <!-- Step 2: Email -->
+        <div class="step" data-step-name="email" hidden>
+          <label for="email">What's your email address?</label>
+          <input type="email" id="email" name="email" placeholder="sara@example.com" autocomplete="email" />
+          <p class="error-text" id="error-email" role="alert"></p>
+        </div>
+
+        <!-- Step 3: Category -->
+        <div class="step" data-step-name="category" hidden>
+          <label id="category-label">Which category fits best?</label>
+          <div class="pill-options" role="radiogroup" aria-labelledby="category-label">
+            <button type="button" class="pill-option" data-value="General" role="radio" aria-checked="false">General</button>
+            <button type="button" class="pill-option" data-value="Bug report" role="radio" aria-checked="false">Bug report</button>
+            <button type="button" class="pill-option" data-value="Suggestion" role="radio" aria-checked="false">Suggestion</button>
+          </div>
+          <input type="hidden" id="category" name="category" value="" />
+          <p class="error-text" id="error-category" role="alert"></p>
+        </div>
+
+        <!-- Step 4: Rating -->
+        <div class="step" data-step-name="rating" hidden>
+          <label id="rating-label">Rate your week</label>
+          <div class="rating-row" role="radiogroup" aria-labelledby="rating-label">
+            <button type="button" class="emoji-btn" data-value="1" role="radio" aria-checked="false" aria-label="1 - Poor">😞</button>
+            <button type="button" class="emoji-btn" data-value="2" role="radio" aria-checked="false" aria-label="2 - Fair">😐</button>
+            <button type="button" class="emoji-btn" data-value="3" role="radio" aria-checked="false" aria-label="3 - Good">🙂</button>
+            <button type="button" class="emoji-btn" data-value="4" role="radio" aria-checked="false" aria-label="4 - Great">😄</button>
+            <button type="button" class="emoji-btn" data-value="5" role="radio" aria-checked="false" aria-label="5 - Excellent">🤩</button>
+          </div>
+          <input type="hidden" id="rating" name="rating" value="" />
+          <p class="rating-caption" id="rating-caption"></p>
+          <p class="error-text" id="error-rating" role="alert"></p>
+        </div>
+
+        <!-- Step 5: Message -->
+        <div class="step" data-step-name="message" hidden>
+          <div class="field-header">
+            <label for="message">Tell us more</label>
+            <span class="char-counter" id="char-counter">0 / 500</span>
+          </div>
+          <textarea id="message" name="message" rows="5" placeholder="What went well, and what could be better?"></textarea>
+          <p class="error-text" id="error-message" role="alert"></p>
+        </div>
+
+        <div class="wizard-nav">
+          <button type="button" class="nav-btn back-btn" id="back-btn" hidden>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Back
+          </button>
+          <button type="button" class="nav-btn next-btn" id="next-btn">
+            Next
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <button type="submit" class="nav-btn submit-btn" id="submit-btn" hidden>
+            <span class="btn-label">Submit Feedback</span>
+            <span class="spinner" id="spinner" hidden></span>
+          </button>
+        </div>
+      </form>
+
+      <!-- Success panel -->
+      <div class="success-panel" id="success-panel" hidden>
+        <div class="check-circle">
+          <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="4 12 9 17 20 6"></polyline>
+          </svg>
+        </div>
+        <h2 id="success-heading">Thanks!</h2>
+        <p id="success-sub"></p>
+        <button type="button" class="secondary-btn" id="reset-btn">Back to home</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" hidden role="alert">
+    <div class="toast-bar"></div>
+    <div class="toast-body">
+      <strong>Something went wrong</strong>
+      <p id="toast-message">Please check your connection and try again.</p>
+    </div>
+    <button type="button" class="toast-close" id="toast-close" aria-label="Dismiss">&times;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
