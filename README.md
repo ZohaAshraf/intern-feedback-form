@@ -49,11 +49,17 @@ To test the error state: turn off your internet connection before submitting, or
 
 | Validation errors | Success state |
 |---|---|
-|<img width="1020" height="595" alt="image" src="https://github.com/user-attachments/assets/880e2e7d-2df5-4d08-b506-1858fe6fa5de" />|<img width="1033" height="602" alt="image" src="https://github.com/user-attachments/assets/1c8e096e-b127-461f-984a-531d9f5c74a4" />|
-|<img width="1029" height="602" alt="image" src="https://github.com/user-attachments/assets/156f7065-76ef-4918-8d84-dd9c4f180220" />|<img width="1037" height="595" alt="image" src="https://github.com/user-attachments/assets/53c3651b-475e-4c13-b4dd-3ee536b01f1a" />|
-|<img width="1033" height="602" alt="image" src="https://github.com/user-attachments/assets/27f02bfa-6b49-42c5-86c3-018006bd5816" />|<img width="1028" height="591" alt="image" src="https://github.com/user-attachments/assets/689cb4e5-40da-459a-9d33-37d52444d787" />|
-|<img width="1035" height="564" alt="image" src="https://github.com/user-attachments/assets/0e1e2f6d-1ef1-4dcb-a578-dc2da608bc77" />  | <img width="1014" height="594" alt="image" src="https://github.com/user-attachments/assets/b3dc21ca-50b2-44a8-93a0-3094d8ea2d3b" /> |
-|<img width="1040" height="654" alt="image" src="https://github.com/user-attachments/assets/36ad9f9d-07ca-4605-98e2-1b6e3d2943a4" />  | <img width="1013" height="588" alt="image" src="https://github.com/user-attachments/assets/d73a707b-fb90-43c4-bfb8-b040f7c67476" /> |
+|<img width="1895" height="838" alt="image" src="https://github.com/user-attachments/assets/83a32c29-c28e-4bb3-a901-69174803350b" />|<img width="1884" height="835" alt="ChatGPT Image Jul 18, 2026, 12_11_46 AM" src="https://github.com/user-attachments/assets/4ff708e7-3766-4ec5-9cc1-20b9aa49ab68" />|
+|<img width="1023" height="585" alt="image" src="https://github.com/user-attachments/assets/7ebd10f9-b28f-4109-9f4f-6cf3be4baf83" />|<img width="1024" height="599" alt="image" src="https://github.com/user-attachments/assets/9c893699-9c1c-45cc-a013-adfd6f542d10" />|
+|<img width="1016" height="593" alt="image" src="https://github.com/user-attachments/assets/a8b2007d-16d1-41fc-9b19-b4422c5bb315" />|<img width="1012" height="596" alt="image" src="https://github.com/user-attachments/assets/de0b4c14-50e5-4ed3-800f-ea0c3d8730f8" />|
+|<img width="1028" height="602" alt="image" src="https://github.com/user-attachments/assets/252f1380-486a-4426-bf21-7213cf965660" />|<img width="1029" height="589" alt="image" src="https://github.com/user-attachments/assets/17274351-32b2-48c3-b67a-35a2dee24249" />|
+|<img width="1032" height="591" alt="image" src="https://github.com/user-attachments/assets/4528f562-9069-4351-8b22-0c6162040cfc" />|<img width="1006" height="587" alt="image" src="https://github.com/user-attachments/assets/c2529d48-5805-4aad-b97f-4a868cf69030" />|
+|<img width="1026" height="636" alt="image" src="https://github.com/user-attachments/assets/59ff1b75-5ca0-4dc3-8f74-8f0db9ec9337" />| <img width="1018" height="647" alt="image" src="https://github.com/user-attachments/assets/8f0c88b0-0a5b-47e9-a051-1522a0906bd0" />|
+|<img width="1022" height="640" alt="image" src="https://github.com/user-attachments/assets/0cfb7e22-c695-4acc-86d9-7b8aca09a080" />|<img width="1028" height="587" alt="image" src="https://github.com/user-attachments/assets/2a381153-0c18-4982-8243-a439c4a8265a" />|
+
+<img width="1884" height="835" alt="ChatGPT Image Jul 18, 2026, 12_11_46 AM" src="https://github.com/user-attachments/assets/c61c3c3c-86b6-4327-b063-1910887dffdb" />
+<img width="1884" height="835" alt="ChatGPT Image Jul 18, 2026, 12_11_46 AM" src="https://github.com/user-attachments/assets/059c6f9b-3652-4d3d-8c57-9d9b705993c9" />
+
 |<img width="1014" height="658" alt="image" src="https://github.com/user-attachments/assets/d5731063-6fc3-4f79-800c-d53271f5285c" />  | <img width="1032" height="587" alt="image" src="https://github.com/user-attachments/assets/a48a2fc7-9c1b-4fd1-9cf0-daecc8b7633e" /> |
 ---
 
