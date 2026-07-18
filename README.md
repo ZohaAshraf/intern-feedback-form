@@ -56,11 +56,6 @@ To test the error state: turn off your internet connection before submitting, or
 |<img width="1032" height="591" alt="image" src="https://github.com/user-attachments/assets/4528f562-9069-4351-8b22-0c6162040cfc" />|<img width="1006" height="587" alt="image" src="https://github.com/user-attachments/assets/c2529d48-5805-4aad-b97f-4a868cf69030" />|
 |<img width="1026" height="636" alt="image" src="https://github.com/user-attachments/assets/59ff1b75-5ca0-4dc3-8f74-8f0db9ec9337" />| <img width="1018" height="647" alt="image" src="https://github.com/user-attachments/assets/8f0c88b0-0a5b-47e9-a051-1522a0906bd0" />|
 |<img width="1022" height="640" alt="image" src="https://github.com/user-attachments/assets/0cfb7e22-c695-4acc-86d9-7b8aca09a080" />|<img width="1028" height="587" alt="image" src="https://github.com/user-attachments/assets/2a381153-0c18-4982-8243-a439c4a8265a" />|
-
-<img width="1884" height="835" alt="ChatGPT Image Jul 18, 2026, 12_11_46 AM" src="https://github.com/user-attachments/assets/c61c3c3c-86b6-4327-b063-1910887dffdb" />
-<img width="1884" height="835" alt="ChatGPT Image Jul 18, 2026, 12_11_46 AM" src="https://github.com/user-attachments/assets/059c6f9b-3652-4d3d-8c57-9d9b705993c9" />
-
-|<img width="1014" height="658" alt="image" src="https://github.com/user-attachments/assets/d5731063-6fc3-4f79-800c-d53271f5285c" />  | <img width="1032" height="587" alt="image" src="https://github.com/user-attachments/assets/a48a2fc7-9c1b-4fd1-9cf0-daecc8b7633e" /> |
 ---
 
 ## 🧠 What I Learned / What Was Hard
