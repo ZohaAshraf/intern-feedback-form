@@ -368,7 +368,7 @@ function prependRecentEntry(name, category, message) {
 
 async function loadRecentFeedback() {
   try {
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=6');
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=5');
     if (!response.ok) throw new Error('Failed to load recent feedback');
     const posts = await response.json();
 
