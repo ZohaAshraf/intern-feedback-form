@@ -50,18 +50,11 @@ To test the error state: turn off your internet connection before submitting, or
 | Validation errors | Success state |
 |---|---|
 |<img width="1020" height="595" alt="image" src="https://github.com/user-attachments/assets/880e2e7d-2df5-4d08-b506-1858fe6fa5de" />|<img width="1033" height="602" alt="image" src="https://github.com/user-attachments/assets/1c8e096e-b127-461f-984a-531d9f5c74a4" />|
-
 |<img width="1029" height="602" alt="image" src="https://github.com/user-attachments/assets/156f7065-76ef-4918-8d84-dd9c4f180220" />|<img width="1037" height="595" alt="image" src="https://github.com/user-attachments/assets/53c3651b-475e-4c13-b4dd-3ee536b01f1a" />|
-
 |<img width="1033" height="602" alt="image" src="https://github.com/user-attachments/assets/27f02bfa-6b49-42c5-86c3-018006bd5816" />|<img width="1028" height="591" alt="image" src="https://github.com/user-attachments/assets/689cb4e5-40da-459a-9d33-37d52444d787" />|
-
 |<img width="1035" height="564" alt="image" src="https://github.com/user-attachments/assets/0e1e2f6d-1ef1-4dcb-a578-dc2da608bc77" />  | <img width="1014" height="594" alt="image" src="https://github.com/user-attachments/assets/b3dc21ca-50b2-44a8-93a0-3094d8ea2d3b" /> |
-
 |<img width="1040" height="654" alt="image" src="https://github.com/user-attachments/assets/36ad9f9d-07ca-4605-98e2-1b6e3d2943a4" />  | <img width="1013" height="588" alt="image" src="https://github.com/user-attachments/assets/d73a707b-fb90-43c4-bfb8-b040f7c67476" /> |
-
 |<img width="1014" height="658" alt="image" src="https://github.com/user-attachments/assets/d5731063-6fc3-4f79-800c-d53271f5285c" />  | <img width="1032" height="587" alt="image" src="https://github.com/user-attachments/assets/a48a2fc7-9c1b-4fd1-9cf0-daecc8b7633e" /> |
-
-
 ---
 
 ## 🧠 What I Learned / What Was Hard
