@@ -302,6 +302,7 @@ function handleSuccess(name, category, message, id) {
   successHeading.textContent = `Thanks, ${name.split(' ')[0]}!`;
   successSub.textContent = `Your feedback was saved successfully — Reference ID #${id}.`;
   successPanel.hidden = false;
+  form.reset();
   clearDraft();
   prependRecentEntry(name, category, message);
 }
