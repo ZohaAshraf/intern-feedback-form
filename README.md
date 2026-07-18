@@ -49,17 +49,15 @@ To test the error state: turn off your internet connection before submitting, or
 
 | Validation errors | Success state |
 |---|---|
-| <img width="947" height="413" alt="ss1" src="https://github.com/user-attachments/assets/0e8a7275-da13-4323-af70-89668f94b7c6" />
- | <img width="522" height="296" alt="Screenshot 2026-07-17 234821" src="https://github.com/user-attachments/assets/b156a5f9-27b4-4dfe-a041-c38bed834809" />
-| <img width="1899" height="825" alt="image" src="https://github.com/user-attachments/assets/2bb373dd-65e7-4a74-baac-91da9ebffc11" />
-
-
-
+| <img width="1498" height="836" alt="image" src="https://github.com/user-attachments/assets/5dcdbba7-5edc-4137-983a-292653a477c2" />
+| <img width="1020" height="595" alt="image" src="https://github.com/user-attachments/assets/e0df7010-f022-4d63-aaf0-f752efe5fba2" />
+| <img width="1033" height="602" alt="image" src="https://github.com/user-attachments/assets/27f02bfa-6b49-42c5-86c3-018006bd5816" />
+| <img width="1035" height="564" alt="image" src="https://github.com/user-attachments/assets/0e1e2f6d-1ef1-4dcb-a578-dc2da608bc77" />
 ---
 
 ## 🧠 What I Learned / What Was Hard
 
-_(Write this part yourself in 3–6 sentences once you've finished testing — it should reflect your actual experience. A few starting points if it helps: what surprised you about handling `fetch()` errors, whether the multi-step wizard state management was tricky, or what you'd do differently with more time.)_
+This was my first time actually connecting a form to a real API call instead of just logging data to the console, and it made a few things click that I only understood in theory before, like why response.ok needs to be checked manually since fetch() won't throw an error on its own for a 404 or 500. The trickiest part was managing the multi-step form, keeping track of which question the user is on, validating only the current field before letting them move to the next one, and making sure the Back button didn't accidentally wipe out answers they'd already filled in. I also didn't expect the loading state to be so easy to mess up — in my first attempt the button could get clicked twice while a request was still in progress, so I had to add the disabled state properly. If I had more time, I'd probably add proper form-wide keyboard navigation and maybe store submissions in a real database instead of a mock API so the "Recent Feedback" section could show actual live data.
 
 ---
 
