@@ -50,9 +50,11 @@ To test the error state: turn off your internet connection before submitting, or
 | Validation errors | Success state |
 |---|---|
 | <img width="1498" height="836" alt="image" src="https://github.com/user-attachments/assets/5dcdbba7-5edc-4137-983a-292653a477c2" />
-| <img width="1020" height="595" alt="image" src="https://github.com/user-attachments/assets/e0df7010-f022-4d63-aaf0-f752efe5fba2" />
+| <img width="1029" height="602" alt="image" src="https://github.com/user-attachments/assets/156f7065-76ef-4918-8d84-dd9c4f180220" />
 | <img width="1033" height="602" alt="image" src="https://github.com/user-attachments/assets/27f02bfa-6b49-42c5-86c3-018006bd5816" />
 | <img width="1035" height="564" alt="image" src="https://github.com/user-attachments/assets/0e1e2f6d-1ef1-4dcb-a578-dc2da608bc77" />
+| <img width="1040" height="654" alt="image" src="https://github.com/user-attachments/assets/36ad9f9d-07ca-4605-98e2-1b6e3d2943a4" />
+
 ---
 
 ## 🧠 What I Learned / What Was Hard
