@@ -1,0 +1,24 @@
+{
+  "name": "intern-feedback-form",
+  "version": "1.0.0",
+  "description": "A responsive, multi-step feedback form built for the Web Dev Track Entry-Level Task (Week 2). Interns can share weekly feedback through a guided, one-question-at-a-time flow, with the data submitted to a live mock REST API.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZohaAshraf/intern-feedback-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ZohaAshraf/intern-feedback-form/issues"
+  },
+  "homepage": "https://github.com/ZohaAshraf/intern-feedback-form#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
